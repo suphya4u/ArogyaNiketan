@@ -1,8 +1,37 @@
-application: arogyaniketan
+application: ayurvedarogyaniketan
 version: 1
 runtime: php55
 api_version: 1
 
 handlers:
-- url: /.*
-  script: helloworld.php
+- url: /$
+  script: php/index.php
+
+- url: /home
+  script: php/index.php
+
+- url: /ayurveda
+  script: php/ayurveda.php
+
+- url: /aboutus
+  script: php/aboutus.php
+
+- url: /facilities
+  script: php/facilities.php
+
+- url: /contactus
+  script: php/contactus.php
+
+
+# Map static directories
+- url: /js
+  static_dir: res/js
+
+- url: /css
+  static_dir: res/css
+
+- url: /images
+  static_dir: res/images
+
+- url: /html
+  static_dir: res/html
