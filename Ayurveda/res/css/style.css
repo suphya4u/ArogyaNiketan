@@ -6,7 +6,9 @@ html
   padding: 0;}
 
 body
-{ font: normal 90% Arial, Helvetica, sans-serif;
+{ font: normal 90% 'RobotoDraft', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
   color: #000;
 }
 
@@ -24,25 +26,25 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 175% Arial, sans-serif;
+{ font: normal 175% 'RobotoDraft', sans-serif;
   color: #000;
   margin: 0 0 10px 0;}
 
 h2
-{ font: normal 165% Arial, sans-serif;}
+{ font: normal 165% 'RobotoDraft', sans-serif;}
 
 h3
-{ font: normal 130% Arial, sans-serif;}
+{ font: normal 130% 'RobotoDraft', sans-serif;}
 
 h4, h5, h6
 { margin: 0;
   padding: 0 0 0px 0;
-  font: normal 150% Arial, sans-serif;
+  font: normal 150% 'RobotoDraft', sans-serif;
   color: #FFF;
   line-height: 1.5em;}
 
 h5, h6
-{ font: normal 95% Arial, sans-serif;
+{ font: normal 95% 'RobotoDraft', sans-serif;
   color: #888;
   padding-bottom: 15px;}
   
@@ -53,7 +55,7 @@ span
 a, a:hover
 { color: #000;
   background: transparent;
-  font-weight: bold;
+  font-weight: 400;
   outline: none;
   text-decoration: underline;}
 
@@ -80,10 +82,9 @@ header
 { height: 150px;
   display: inline-block;
   width: 100%;
-  background: rgba(1D, 1D, 1D, 0.3);
-  background: -moz-linear-gradient(#000, rgba(53, 53, 53, 0.2));
-  background: -o-linear-gradient(rgba(#000, 53, 53, 53, 0.2));
-  background: -webkit-linear-gradient(#000, rgba(53, 53, 53, 0.2));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(53, 53, 53, 0));
+  background: -o-linear-gradient(rgba(rgba(0, 0, 0, 0.5), 53, 53, 53, 0));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(53, 53, 53, 0));
   position: fixed;
   z-index: 100;
 }
@@ -110,13 +111,14 @@ nav
   
 #title_plus_logo H2
 {
-  font: bold 200% Arial, sans-serif;
+  font-family: 'RobotoDraft', sans-serif;
+  font-size: 200%;
   color: #FFF
 }
 
 #title_plus_logo H4
 {
-  font: bold Arial, sans-serif;
+  font-family: 'RobotoDraft', sans-serif;
   color: #FFF;
   text-align: right;
 }
@@ -143,10 +145,10 @@ ul#nav li
 
 ul#nav li a
 { float: left;
-  font: bold 130% Arial, sans-serif;
+  font: 130% sans-serif;
   height: 24px;
   margin: 8px 20px 0 0;
-  text-shadow: 0px 1px 0px #000;
+  text-shadow: 1px 1px 1px #444;
   padding: 5px 20px 5px 20px;
   background: transparent; 
   border-radius: 7px 7px 7px 7px;
@@ -154,30 +156,28 @@ ul#nav li a
   -webkit-border: 7px 7px 7px 7px;
   text-align: center;
   color: #FFF;
-  text-decoration: none;} 
+  text-decoration: none;
+}
   
 ul#nav li.current a, ul#nav li:hover a
-{ color: #FFF;
-  background: #0055D4;
-  background: -moz-linear-gradient(#43A9FF, #0043A8);
-  background: -o-linear-gradient(#43A9FF, #0043A8);
-  background: -webkit-linear-gradient(#43A9FF, #0043A8);
-  text-shadow: none;}
+{
+  color: #82FFFF;
+}
   
 #slideshow_container
-{ height: 450px;
+{ height: 550px;
 }
   
 .slideshow
 { width: 100%;
-  height: 450px;
+  height: 550px;
   margin: 0 auto;}  
   
 /* styling for the slideshow on the homepage */
 ul.slideshow {
   list-style: none;
   width: 100%;
-  height: 450px;
+  height: 550px;
   overflow: hidden;
   position: relative;}
   
@@ -209,7 +209,9 @@ ul img {
  
 #slideshow-caption .slideshow-caption-container {
   padding: 10px 25px 10px 25px; 
-  background: transparent url(../images/transparent.png) repeat;  
+  background: -moz-linear-gradient(rgba(53, 53, 53, 0), rgba(0, 0, 0, 0.5));
+  background: -o-linear-gradient(rgba(53, 53, 53, 0), rgba(0, 0, 0, 0.5));
+  background: -webkit-linear-gradient(rgba(53, 53, 53, 0), rgba(0, 0, 0, 0.5));
   z-index: 90;}
  
 #slideshow-caption p {
@@ -219,8 +221,11 @@ ul img {
   text-shadow: 1px 1px #000;}  
 
 #site_content
-{ width: 940px;
-  overflow: hidden;} 
+{
+  width: 940px;
+  overflow: hidden;
+  margin-top: 50px;
+} 
 
 .sidebar_container
 { float: right;
@@ -255,7 +260,15 @@ ul img {
 { width: 330px;
   margin: 20px 10px 0 0;
   float: left;}
-  
+
+.divider
+{
+  margin: 20px 0;
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+}
+
 footer
 { width: 940px;
   height: 50px;
@@ -263,32 +276,21 @@ footer
   margin-bottom: 20px;  
   font-weight: bold;
   text-align: center; 
-  text-shadow: 1px 1px #000;
-  color: #FFF;
-  background: #0043A8;
-  background: -moz-linear-gradient(#43A9FF, #0043A8);
-  background: -o-linear-gradient(#43A9FF, #0043A8);
-  background: -webkit-linear-gradient(#43A9FF, #0043A8);
-  border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 15px 15px 15px 15px;
-  -webkit-border: 15px 15px 15px 15px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+}
 
 footer a, footer a:hover
-{ text-shadow: 1px 1px #FFF;
-  color: #1D1D1D;
+{
   text-decoration: none;
-  padding-bottom: 20px;}
+  padding-bottom: 20px;
+}
 
 footer a:hover
 { text-decoration: underline;}
 
 footer a, footer a:hover
-{ text-shadow: 1px 1px #000;
-  color: #FFF;
-  text-decoration: none;}
+{
+  text-decoration: none;
+}
 
 footer a:hover
 { text-decoration: underline;}

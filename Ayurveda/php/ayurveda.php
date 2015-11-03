@@ -81,7 +81,8 @@
 		</div><!--close content_item-->
       </div><!--close content-->   
 	</div><!--close site_content-->  	
-    <footer id="footer"></footer>
+
+  <footer id="footer"></footer>
   </div><!--close main-->
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
