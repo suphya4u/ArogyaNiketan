@@ -36,7 +36,7 @@
 
 	  <div id="content">
         <div class="content_item">
-		  <h1>&quot;Where care comes first!&quot;</h1>
+		  <h2>&quot;Where care comes first!&quot;</h2>
           <p>&quot;Ayurveda Arogya Niketan&quot; is centre opened with the aim of making the
               benefits of Ayurveda easily available for everyone.</p>
 		  <p>The centre is passionate about incredible healing power of
@@ -49,7 +49,7 @@
               Family is the base of healthy society and child is the one who completes
               the family and continue it further.</p>
           <br/>
-          <h1>&quot;Children reinvent your world for you&quot;</h1>
+          <h2>&quot;Children reinvent your world for you&quot;</h2>
           <p>So the centre is aim at achieving a healthy progeny, successful parenthood
               and ultimately happy society through Ayurveda.</p>
 		  
