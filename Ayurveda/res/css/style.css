@@ -66,7 +66,7 @@ a:hover
 { text-decoration: none;}
 
 ul
-{ margin: 2px 0 22px 30px;
+{ margin: 2px 0 22px 0;
   line-height: 1.7em;
   font-style: normal;
   font-size: 100%;}
@@ -93,32 +93,39 @@ header
 }
  
 nav
-{ height: 60px;}  
+{
+  height: 60px;
+  width: 65%;
+  float: right;
+  margin-top: 10px;
+}  
   
 #strapline
-{ width: 100%;
+{
+  width: 35%;
   height: 80px;
   text-align: center; 
-  margin: 0 auto;} 
+  margin: 0 auto;
+  float: left;
+} 
   
 #title_plus_logo
 { 
-  float: left;
   height: 70px;
   padding-top: 10px;  
   margin: 0 auto;
   display: inline-block;
-  float: left;
   padding-left: 10%;
 }    
   
 #title_plus_logo H2
 {
   font-family: 'RobotoDraft', sans-serif;
-  font-size: 200%;
+  font-size: 180%;
   color: #FFF;
   padding-top: 30px;
   border-bottom: 2px solid #fff;
+  text-shadow: 1px 1px 1px #444;
 }
 
 #title_plus_logo H4
@@ -128,16 +135,16 @@ nav
   text-align: right;
   font-size: 120%;
   padding-top: 10px;
+  text-shadow: 1px 1px 1px #444;
 }
 
 #menubar
 {
-  height: 55px;
   padding-top: 10px;
   text-align: center; 
   margin: 0 auto;
   float: right;
-  padding-right: 10%;
+  border-bottom: 1px solid #fff;
 }    
   
 ul#nav
@@ -152,9 +159,9 @@ ul#nav li
 
 ul#nav li a
 { float: left;
-  font: 130% sans-serif;
+  font: 120% sans-serif;
   height: 24px;
-  margin: 8px 20px 0 0;
+  margin: 8px 0 0 0;
   text-shadow: 1px 1px 1px #444;
   padding: 5px 20px 5px 20px;
   background: transparent; 
@@ -225,7 +232,8 @@ ul img {
   padding: 0;
   font: normal 130% arial, sans-serif;
   color: #FFF;
-  text-shadow: 1px 1px #000;}  
+  text-shadow: 1px 1px #000;
+}  
 
 #site_content
 {
@@ -237,7 +245,8 @@ ul img {
 .sidebar_container
 { float: right;
   margin: 20px 0 0 10px;
-  width: 240px;}
+  width: 240px;
+}
 
 .sidebar
 { float: left;
@@ -330,14 +339,14 @@ footer a:hover
 
 .form_settings span
 { float: left; 
-  width: 280px; 
+  width: 25%; 
   text-align: left;
   text-shadow: none;
   color: #000;}
   
 .form_settings input, .form_settings textarea
 { padding: 2px; 
-  width: 299px; 
+  width: 65%; 
   font: 100% arial; 
   border: 1px solid #E5E5DB; 
   background: #FFF; 
@@ -353,7 +362,7 @@ footer a:hover
   margin: 28px 0;}
 
 .form_settings .submit
-{ font: 100% arial; 
+{ font: 100% sans-serif; 
   border: 1px solid; 
   width: 99px; 
   margin: 0 0 0 206px; 

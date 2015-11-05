@@ -13,14 +13,17 @@ handlers:
 - url: /ayurveda
   script: php/ayurveda.php
 
-- url: /aboutus
-  script: php/aboutus.php
+- url: /panchakarma
+  script: php/panchakarma.php
 
 - url: /facilities
   script: php/facilities.php
 
 - url: /contactus
   script: php/contactus.php
+
+- url: /aboutus
+  script: php/aboutus.php
 
 
 # Map static directories

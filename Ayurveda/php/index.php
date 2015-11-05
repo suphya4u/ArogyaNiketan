@@ -6,7 +6,6 @@
   <meta name="description" content="Ayurved Arogya Niketan. Ayurveda Hospital" />
   <meta name="keywords" content="Ayurveda, Panchakarma, Hospital, Clinic, Doctor" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link href="//fonts.googleapis.com/css?family=RobotoDraft:100,300,400,500,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>

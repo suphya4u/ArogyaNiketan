@@ -34,14 +34,27 @@
 
 	  <div id="content">
         <div class="content_item">
+          <h2>Schedule An Appointment</h2>
+          <p>Please reach us at +91XXXXXXXXX or +91XXXXXXXXX to schedule an appointment or please email us at sheetal.phand@gmail.com.
+        </div><!--close content_item-->
+
+        <div class="content_item">
 		  <div class="form_settings">
-            <h2>Contact Us</h2>
+            <h2>Send A Note / Feedback</h2>
 			<p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
             <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
 			<p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea></p>
             <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="Send" /></p>
           </div><!--close form_settings-->
 		</div><!--close content_item-->
+
+        <div class="content_item">
+          <h2>Find Us on Map</h2>
+        </div><!--close content_item-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.2341232689637!2d73.7795256149397!3d18.653487069964008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9da67bd0a0f%3A0xc26046f41f41fe2d!2sBalaji+Printers!5e0!3m2!1sen!2sus!4v1446703817137"
+            width="600" height="450" frameborder="1" style="border:1px solid" allowfullscreen>
+        </iframe>
+
       </div><!--close content-->   
 	</div><!--close site_content-->  	
     <footer id="footer"></footer>  
