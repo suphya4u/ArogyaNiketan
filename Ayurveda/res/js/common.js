@@ -1,6 +1,6 @@
 
 
-function initCommonSections(selectedMenuItemId){
+function initCommonSections(selectedMenuItemId) {
   $("#header").load("html/header.html", function() {
     $(selectedMenuItemId).attr("class", "current");
   });

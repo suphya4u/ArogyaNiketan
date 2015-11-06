@@ -25,6 +25,9 @@ handlers:
 - url: /aboutus
   script: php/aboutus.php
 
+- url: /sendemail
+  script: php/sendemail.php
+
 
 # Map static directories
 - url: /js

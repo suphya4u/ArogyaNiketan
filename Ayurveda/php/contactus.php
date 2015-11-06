@@ -35,16 +35,34 @@
 	  <div id="content">
         <div class="content_item">
           <h2>Schedule An Appointment</h2>
-          <p>Please reach us at +91XXXXXXXXX or +91XXXXXXXXX to schedule an appointment or please email us at sheetal.phand@gmail.com.
+          <p>Please reach us at <strong>+91-20-27247188</strong> or <strong>+91-9822028527</strong>
+             to schedule an appointment or please email us at <strong>sheetal.phand@gmail.com</strong>.
         </div><!--close content_item-->
 
         <div class="content_item">
 		  <div class="form_settings">
             <h2>Send A Note / Feedback</h2>
-			<p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
-            <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
-			<p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_message"></textarea></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="Send" /></p>
+			<p>
+              <span>Name</span>
+              <input class="contact" type="text" name="your_name" value=""
+                  id="feedbackName" oninput="clearError('#feedbackName')" />
+            </p>
+            <p>
+              <span>Email Address</span>
+              <input class="contact" type="text" name="your_email" value=""
+                  id="feedbackEmail" oninput="clearError('#feedbackEmail')" />
+            </p>
+			<p>
+              <span>Message</span>
+              <textarea class="contact textarea" rows="5" cols="50" name="your_message"
+                  id="feedbackMessage" oninput="clearError('#feedbackMessage')"
+                  value=""></textarea>
+            </p>
+            <p style="padding-top: 15px">
+              <span>&nbsp;</span>
+              <input class="submit" type="submit" name="contact_submitted"
+                  value="Send" onclick="submitFeedback()"/>
+            </p>
           </div><!--close form_settings-->
 		</div><!--close content_item-->
 
@@ -64,6 +82,7 @@
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/image_slide.js"></script>
   <script type="text/javascript" src="js/common.js"></script>
+  <script type="text/javascript" src="js/contactform.js"></script>
   <script type="text/javascript">
     $(function() {
     	initCommonSections("#contactUsMenuItem");
