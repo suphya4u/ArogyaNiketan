@@ -24,16 +24,23 @@ function submitFeedback() {
     return;
   }
 
-  var request = new XMLHttpRequest();
-  request.open("POST", "/sendemail", true);
-
-  request.onreadystatechange = function() {
-    if(request.readyState == 4 && request.status == 200) {
-      // TODO: Replace this with useful content.
-      alert(request.responseText);
-    }
+  var feedback = {
+    name: name,
+    email: email,
+    message: message
   }
-  request.send(null);
+
+  $.post("/sendemail", feedback, function(result) {
+    $("#feedbackName").val("");
+    $("#feedbackEmail").val("");
+    $("#feedbackMessage").val("");
+
+    var currentHeight = $("#feedbackForm").height();
+    $("#feedbackForm").hide();
+    $("#thankYouNote").show();
+    $("#thankYouNote").height(currentHeight);
+    $("#thankYouNote").css("line-height", currentHeight + "px");
+  });
 }
 
 function clearError(inputId) {

@@ -40,9 +40,9 @@
         </div><!--close content_item-->
 
         <div class="content_item">
-		  <div class="form_settings">
-            <h2>Send A Note / Feedback</h2>
-			<p>
+          <h2>Send A Note / Feedback</h2>
+		  <div id="feedbackForm" class="form_settings">
+		    <p>
               <span>Name</span>
               <input class="contact" type="text" name="your_name" value=""
                   id="feedbackName" oninput="clearError('#feedbackName')" />
@@ -64,6 +64,9 @@
                   value="Send" onclick="submitFeedback()"/>
             </p>
           </div><!--close form_settings-->
+          <div id="thankYouNote" class="thankYouNote" style="display: none">
+             Thank you for your message / feedback.
+          </div>
 		</div><!--close content_item-->
 
         <div class="content_item">
