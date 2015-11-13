@@ -35,22 +35,21 @@
 
 	  <div id="content">
         <div class="content_item">
-		  <h2>&quot;Where care comes first!&quot;</h2>
-          <p>&quot;Ayurveda Arogya Niketan&quot; is centre opened with the aim of making the
-              benefits of Ayurveda easily available for everyone.</p>
-		  <p>The centre is passionate about incredible healing power of
-              Ayurveda and its ability to help all of us to maintain good health.</p>
-          <p>Srujan Ayurveda provides all the Panchkarma treatments and other
-              healing therapies for various diseases. But the centre is specially
-              focus on &quot;Pregnancy planning, management and care&quot;, especially consider
-              the &quot;Pre-conception planning, counselling and treatments&quot;.</p>
-          <p>&quot;Vivah&quot; samskaar is one of the 16 samskaaras described in our Shastras.
-              Family is the base of healthy society and child is the one who completes
-              the family and continue it further.</p>
+		  <h2>&quot;The Culture of Care&quot;</h2>
+          <p>Welcome to Ayurved Aarogya Niketan, your holistic approach to promoting health.</p>
+		  <p>Aarogya Niketan itself says &quot;Home of Health&quot;</p>
+          <p>Helath is not merely the absence of disease or infirmity, according to Ayurved
+            Health is a state where in the Tridosh, Digestive fire, all the body tissues and
+            components, all the physiological processes are in perfect unison and the soul,
+            the sense organs and mind are in a state of total satisfaction (Prasanna) and
+            content.</p>
+          <p>सम दोषः सम अग्निश्च सम धातू मलक्रियः ।।<br />
+            प्रसन्न आत्मा इंद्रिय मनः स्वस्थ इति अभिधीयते ।।</p>
           <br/>
-          <h2>&quot;Children reinvent your world for you&quot;</h2>
-          <p>So the centre is aim at achieving a healthy progeny, successful parenthood
-              and ultimately happy society through Ayurveda.</p>
+          <p>&quot;Ayurved Aarogya Niketan&quot; is a centre opened with the aim of making
+            the benefits of Ayurved easily available for everyone.</p>
+          <p>The centre is passionate about incredible healing power of Ayurved and it's
+            ability to help all of us to maintain good health. </p>
 		  
 		</div><!--close content_item-->
       </div><!--close content-->   

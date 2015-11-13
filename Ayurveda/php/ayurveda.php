@@ -33,9 +33,12 @@
 
 	  <div id="content">
         <div class="content_item">
-          <h2>&quot;For the journey that is life&quot;.<br/>
-           Or (&quot;The culture of care&quot;.)</h2>
-			<p>Ayurveda is a Sanskrit term made up of the words Ayu and
+          <h2>&quot;For the journey that is life&quot;.</h2>
+          <h3>What is Ayurved?</h3>
+          <p>Ayu = Life</p>
+          <p>Veda = Knowledge</p>
+          <p>The science of Longevity.</p>
+			<p>Ayurved is a Sanskrit term made up of the words Ayu and
 			    Veda. Ayu means Life and Veda means Knowledge or science.
 			    The term Ayurveda refers to knowledge of life or science
 			    of life.</p>
@@ -57,24 +60,28 @@
 			<h2>Aim of Ayurveda</h2>
 			<p>The aim of Ayurveda is to prevent illness, heal the sick and
 			    preserve life—</p>
-			<p>वथय वाय रणम I</p>
+			<p>स्वस्थस्य स्वास्थ्य रक्षणम ।।</p>
 			<p>To protect health and prolong life.</p>
-			<p>आतुरय वकार शमनंच I</p>
-			<p>To eliminate disease and disfunctions of the body.</p>
+			<p>
+              आतुरस्य विकार प्रशामनंश्च ।।
+            </p>
+			<p>
+              To eliminate disease and disfunctions of the body.
+            </p>
 			
 			<h2>Basic principles of Ayurveda</h2>
 			<p>Ayurveda is based on two fundamental theories – Panchamahabhut and
 			    Tridosh theory.</p>
 			<p>Ayurvedic philosophy believes that everything in the universe is
-			    made up of five elements. Space (आकाश), Air (वाय)ू, Fire (तेज),
-			    Water (जल), Earth (पवी) ृ represented in human by three Doshas
+			    made up of five elements. Space (आकाश), Air (वायू), Fire (तेज),
+			    Water (जल), Earth (पृथ्वी) represented in human by three Doshas
 			    or Energies – Vaat, Pitta, Kapha. When any of Doshas accumulate
 			    in the body beyond the desirable limit, the body loses its balance.
 			    Every individual has distinct balance of these Doshas called Prakriti.
 			    Our health and well being depend on getting a right balance of the
 			    three Doshas.</p>
-			<h2>What is Panchakaram</h2>
-			<p>***** image goes here *****</p>
+			<h2>What is Panchakarama</h2>
+			<img class="panchakarma-img" src="images/panchakarma.png"/>
 			<p>Panchakaramas is Ayurveda’s primary purification and detoxification
 			    treatment. Panchakarma means five therapies. These five therapeutic
 			    treatments eliminate toxins from the body, while balancing the Doshas.</p>

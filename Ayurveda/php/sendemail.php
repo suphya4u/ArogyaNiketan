@@ -13,6 +13,7 @@ try
   $message = new Message();
   $message->setSender("feedback@ayurvedarogyaniketan.appspotmail.com");
   $message->addTo("suphya4u@gmail.com");
+  $message->addTo("sheetal.phand@gmail.com");
   $message->setSubject($subject);
   $message->setTextBody($emailBody);
   $message->send();

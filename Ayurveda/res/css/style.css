@@ -2,8 +2,7 @@ html
 { height: 100%;}
 
 *
-{ margin: 0;
-  padding: 0;}
+{ margin: 0;}
 
 body
 { font: normal 90% 'RobotoDraft', sans-serif;
@@ -165,8 +164,6 @@ ul#nav li a
   text-shadow: 1px 1px 1px #444;
   padding: 5px 20px 5px 20px;
   background: transparent; 
-  border-radius: 7px 7px 7px 7px;
-  -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;
   text-align: center;
   color: #FFF;
@@ -176,6 +173,7 @@ ul#nav li a
 ul#nav li.current a, ul#nav li:hover a
 {
   color: #82FFFF;
+  border-bottom: 2px solid #82FFFF;
 }
   
 #slideshow_container
@@ -388,3 +386,26 @@ input, textarea
 .thankYouNote {
   margin: 15px 0 0 0;
 }
+
+.panchakarmaItem {
+  padding-top: 20px;
+}
+
+.panchakarma-img {
+  width: 400px;
+}
+
+.facilities-img {
+  width: 20%;
+  display: inline-block;
+}
+
+.facilities-item {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.facilities-item-container {
+  padding: 20px 0;
+  border-bottom: 1px solid #e1e1e1;

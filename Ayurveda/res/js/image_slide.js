@@ -7,6 +7,8 @@ $(document).ready(function() {
 
 function slideShow(speed) {
 
+  var showCaption = false;
+
   // append an 'li' item to the 'ul' list for displaying the caption
   $('ul.slideshow').append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><p></p></div></li>');
 
@@ -16,11 +18,13 @@ function slideShow(speed) {
   // get the first image and display it
   $('ul.slideshow li:first').css({opacity: 1.0}).addClass('show');
   
-  // get the caption of the first image from the 'rel' attribute and display it
-  $('#slideshow-caption p').html($('ul.slideshow li.show').find('img').attr('alt'));
-    
-  // display the caption
-  $('#slideshow-caption').css({opacity: 0.6, bottom:0});
+  if (showCaption) {
+    // get the caption of the first image from the 'rel' attribute and display it
+    $('#slideshow-caption p').html($('ul.slideshow li.show').find('img').attr('alt'));
+
+    // display the caption
+    $('#slideshow-caption').css({opacity: 0.6, bottom:0});
+  }
   
   // call the gallery function to run the slideshow  
   var timer = setInterval('gallery()',speed);
