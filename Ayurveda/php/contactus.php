@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Ayurved Arogya Niketan</title>
+  <title>Ayurved Arogya Niketan - Panchakarma Chikitsalay</title>
   <meta name="description" content="Ayurved Arogya Niketan. Ayurveda Hospital" />
   <meta name="keywords" content="Ayurveda, Panchakarma, Hospital, Clinic, Doctor" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -36,7 +36,7 @@
         <div class="content_item">
           <h2>Schedule An Appointment</h2>
           <p>Please reach us at <strong>+91-20-27247188</strong> or <strong>+91-9822028527</strong>
-             to schedule an appointment or please email us at <strong>sheetal.phand@gmail.com</strong>.
+             to schedule an appointment or please email us at <strong>contact@ayurvedniketan.com</strong>.
         </div><!--close content_item-->
 
         <div class="content_item">

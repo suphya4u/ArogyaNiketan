@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Ayurved Arogya Niketan</title>
+  <title>Ayurved Arogya Niketan - Panchakarma Chikitsalay</title>
   <meta name="description" content="Ayurved Arogya Niketan. Ayurveda Hospital" />
   <meta name="keywords" content="Ayurveda, Panchakarma, Hospital, Clinic, Doctor" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -97,7 +97,7 @@
   <script type="text/javascript" src="js/common.js"></script>
   <script>
     $(function(){
-    	initCommonSections("#aboutAyurvedaMenuItem");
+    	initCommonSections("#aboutAyurvedMenuItem");
     });
   </script>
 

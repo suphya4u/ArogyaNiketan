@@ -10,8 +10,8 @@ handlers:
 - url: /home
   script: php/index.php
 
-- url: /ayurveda
-  script: php/ayurveda.php
+- url: /ayurved
+  script: php/ayurved.php
 
 - url: /panchakarma
   script: php/panchakarma.php
@@ -41,3 +41,11 @@ handlers:
 
 - url: /html
   static_dir: res/html
+
+- url: /sitemap.xml
+  static_files: res/sitemap.xml
+  upload: res/sitemap.xml
+
+- url: /robots.txt
+  static_files: res/robots.txt
+  upload: res/robots.txt
