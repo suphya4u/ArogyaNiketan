@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Ayurved Arogya Niketan - Panchakarma Chikitsalay</title>
+  <title>Ayurved Aarogya Niketan - Panchakarma Chikitsalay</title>
   <meta name="description" content="Ayurved Arogya Niketan. Ayurved Hospital. Panchakarma" />
   <meta name="keywords" content="Ayurved, Panchakarma, Hospital, Clinic, Doctor" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
