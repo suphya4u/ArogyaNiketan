@@ -81,12 +81,9 @@ ol li
   margin-right: auto;}
   
 header
-{ height: 150px;
+{
   display: inline-block;
   width: 100%;
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(53, 53, 53, 0));
-  background: -o-linear-gradient(rgba(rgba(0, 0, 0, 0.5), 53, 53, 53, 0));
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(53, 53, 53, 0));
   position: fixed;
   z-index: 100;
 }
@@ -102,7 +99,6 @@ nav
 #strapline
 {
   width: 35%;
-  height: 80px;
   text-align: center; 
   margin: 0 auto;
   float: left;
@@ -111,7 +107,6 @@ nav
 #title_plus_logo
 { 
   height: 70px;
-  padding-top: 10px;  
   margin: 0 auto;
   display: inline-block;
   padding-left: 10%;
