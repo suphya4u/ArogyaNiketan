@@ -12,9 +12,10 @@
 </head>
 
 <body>
-  <div id="main">
+  <div id="main" class="main-content">
 	<header id="header"></header>
-    
+    <div class="top-image"></div>
+
 	<div id="site_content">
 	  <div id="sidebar"></div>
 
