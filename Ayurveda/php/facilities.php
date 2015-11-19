@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div id="main">
+  <div id="main" class="main-content">
 	<header id="header"></header>
 	
     <div id="slideshow_container">

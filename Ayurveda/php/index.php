@@ -12,24 +12,9 @@
 </head>
 
 <body>
-  <div id="main">		
+  <div id="main" class="main-content">		
     <header id="header"></header>
-
-    <div id="slideshow_container">  
-	  <div class="slideshow">
-	    <ul class="slideshow">
-          <li class="show">
-            <img class="slideshow_image"
-               src="images/home_1.jpg" alt="&quot;Enter your caption here&quot;" />
-          </li>
-          <li>
-            <img class="slideshow_image"
-                src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" />
-          </li>
-        </ul> 
-	  </div><!--close slideshow-->
-	</div><!--close slideshow_container-->   
-	
+    <div class="top-image"></div>
 	<div id="site_content">
 	  <div id="sidebar"></div>
 
@@ -60,7 +45,6 @@
   </div><!--close main-->
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/image_slide.js"></script>
   <script type="text/javascript" src="js/common.js"></script>
   <script type="text/javascript">
     $(function() {
