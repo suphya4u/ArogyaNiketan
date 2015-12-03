@@ -68,11 +68,6 @@
 			    Every individual has distinct balance of these Doshas called Prakriti.
 			    Our health and well being depend on getting a right balance of the
 			    three Doshas.</p>
-			<h2>What is Panchakarama</h2>
-			<img class="panchakarma-img" src="images/panchakarma.png"/>
-			<p>Panchakaramas is Ayurveda’s primary purification and detoxification
-			    treatment. Panchakarma means five therapies. These five therapeutic
-			    treatments eliminate toxins from the body, while balancing the Doshas.</p>
 		</div><!--close content_item-->
       </div><!--close content-->   
 	</div><!--close site_content-->  	
