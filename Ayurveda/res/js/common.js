@@ -11,7 +11,7 @@ function initCommonSections(selectedMenuItemId) {
 }
 
 function updateHeaderCss(scrollFraction) {
-    $("#header").css("background","rgba(77, 37, 0, " + (1 - scrollFraction) + ")");
+    $("#header").css("background","rgba(0, 77, 37, " + (1 - scrollFraction) + ")");
     $("#header").css("height", (70 + (80 * scrollFraction)) + "px");
     $("#title_top").css("font-size", (140 + (60 * scrollFraction)) + "%");
     $("#title_top").css("padding",

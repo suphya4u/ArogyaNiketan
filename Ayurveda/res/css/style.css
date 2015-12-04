@@ -77,10 +77,10 @@ ol li
   margin-right: auto;}
 
 .main-content {
-  background-image: url("/images/old-paper.jpg");
+  background-color: #f7ffee;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  font-family: "Comic Sans MS", "Sans";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   min-width: 940px;
 }
 
@@ -169,21 +169,22 @@ ul#nav li a
   
 ul#nav li.current a, ul#nav li:hover a
 {
-  color: #ffd8b3;
-  border-bottom: 2px solid #ffd8b3;
+  color: #d8ffb3;
+  border-bottom: 2px solid #d8ffb3;
 }
 
 .top-image {
   width: 100%;
   height: 500px;
-  background-image: url("/images/ayurveda.jpg");
+  background-image: url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 65px;
+  background-color: #007737;
 }
 
 #site_content a {
-  color: #4d2500;
+  color: #203c00;
 }
 
 #site_content
@@ -191,7 +192,7 @@ ul#nav li.current a, ul#nav li:hover a
   width: 940px;
   overflow: hidden;
   padding-top: 30px;
-  color: #4d2500;
+  color: #203c00;
 } 
 
 .sidebar_container
@@ -246,7 +247,7 @@ footer a, footer a:hover
 {
   text-decoration: none;
   padding-bottom: 20px;
-  color: #4d2500;
+  color: #254d00;
 }
 
 footer a:hover
@@ -255,7 +256,7 @@ footer a:hover
 footer a, footer a:hover
 {
   text-decoration: none;
-  text-shadow: 1px 1px #b35600;
+  text-shadow: 1px 1px #56b300;
 }
 
 footer a:hover
@@ -305,8 +306,8 @@ input, textarea
 {
   padding: 2px; 
   width: 65%; 
-  border: 1px solid #ffbf80; 
-  background: #ffe5cc; 
+  border: 1px solid #bfff80; 
+  background: #e5ffcc; 
   font-size: 100%;
 }
   
@@ -328,10 +329,10 @@ input, textarea
   padding: 2px 0 3px 0;
   cursor: pointer; 
   background: #331900;
-  background: -moz-linear-gradient(#663200, #331900);
-  background: -o-linear-gradient(#663200, #331900);
-  background: -webkit-linear-gradient(#663200, #331900);
-  color: #ffd8b3;
+  background: -moz-linear-gradient(#326600, #193300);
+  background: -o-linear-gradient(#326600, #193300);
+  background: -webkit-linear-gradient(#326600, #193300);
+  color: #d8d8b3;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;
